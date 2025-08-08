@@ -3,7 +3,7 @@ import tracker from '@middleware.io/agent-apm-nextjs';
 
 export function register() {
     tracker.track({
-        serviceName: "wrkm-nextjs",
+        serviceName: "wrkm-nextjs-myapp2",
         accessToken: process.env.MW_ACCESS_TOKEN || '',
         enableExceptionHandling: true, // Enable advanced exception handling
         target: "vercel",
