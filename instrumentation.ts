@@ -6,7 +6,7 @@ export function register() {
         serviceName: "wrkm-nextjs",
         accessToken: process.env.MW_ACCESS_TOKEN || '',
         enableExceptionHandling: true, // Enable advanced exception handling
-        // target: "vercel",
+        target: "vercel",
         customResourceAttributes: {
             "app.version": "0.0.1"
         }
